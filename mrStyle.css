@@ -1,0 +1,45 @@
+﻿/* 
+                                                                                                                               
+                                                                                                                                
+                                             SSSSSSSSSSSSSSS      tttt                              lllllll                     
+                                           SS:::::::::::::::S  ttt:::t                              l:::::l                     
+                                          S:::::SSSSSS::::::S  t:::::t                              l:::::l                     
+                                          S:::::S     SSSSSSS  t:::::t                              l:::::l                     
+   mmmmmmm    mmmmmmm   rrrrr   rrrrrrrrr S:::::S        ttttttt:::::tttttttyyyyyyy           yyyyyyyl::::l     eeeeeeeeeeee    
+ mm:::::::m  m:::::::mm r::::rrr:::::::::rS:::::S        t:::::::::::::::::t y:::::y         y:::::y l::::l   ee::::::::::::ee  
+m::::::::::mm::::::::::mr:::::::::::::::::rS::::SSSS     t:::::::::::::::::t  y:::::y       y:::::y  l::::l  e::::::eeeee:::::ee
+m::::::::::::::::::::::mrr::::::rrrrr::::::rSS::::::SSSSStttttt:::::::tttttt   y:::::y     y:::::y   l::::l e::::::e     e:::::e
+m:::::mmm::::::mmm:::::m r:::::r     r:::::r  SSS::::::::SS    t:::::t          y:::::y   y:::::y    l::::l e:::::::eeeee::::::e
+m::::m   m::::m   m::::m r:::::r     rrrrrrr     SSSSSS::::S   t:::::t           y:::::y y:::::y     l::::l e:::::::::::::::::e 
+m::::m   m::::m   m::::m r:::::r                      S:::::S  t:::::t            y:::::y:::::y      l::::l e::::::eeeeeeeeeee  
+m::::m   m::::m   m::::m r:::::r                      S:::::S  t:::::t    tttttt   y:::::::::y       l::::l e:::::::e           
+m::::m   m::::m   m::::m r:::::r          SSSSSSS     S:::::S  t::::::tttt:::::t    y:::::::y       l::::::le::::::::e          
+m::::m   m::::m   m::::m r:::::r          S::::::SSSSSS:::::S  tt::::::::::::::t     y:::::y        l::::::l e::::::::eeeeeeee  
+m::::m   m::::m   m::::m r:::::r          S:::::::::::::::SS     tt:::::::::::tt    y:::::y         l::::::l  ee:::::::::::::e  
+mmmmmm   mmmmmm   mmmmmm rrrrrrr           SSSSSSSSSSSSSSS         ttttttttttt     y:::::y          llllllll    eeeeeeeeeeeeee  
+                                                                                  y:::::y                                       
+                                                                                 y:::::y                                        
+                                                                                y:::::y                                         
+                                                                               y:::::y                                          
+                                                                              yyyyyyy                                           
+Current Styles:
+- mrBox
+- mrEnamel
+
+*/                                                                                                                             
+                                                                                                                              
+/* Typography */
+
+/* Boxes */
+
+mrEnamel { border-radius: 25px; box-shadow: 1px 1px 2px black, -1px -1px 2px black, 5px 5px 3px grey, inset -3px -3px 3px grey, inset 3px -3px 3px grey; }
+
+/* Positioning */
+
+
+/* Animations */
+
+@-webkit-keyframes mrShrink { from { transform: scale(1); } 50% { transform: scale(0.9); } to { transform: scale(1); } } 
+@keyframes mrShrink { from { transform: scale(1); } 50% { transform: scale(0.9); } to { transform: scale(1); } } 
+.mrBox { transition: .1s; }
+.mrbox:hover { animation: shrink 2s ease-in-out infinite; } 
