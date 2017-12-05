@@ -75,6 +75,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .mrH1 { font-size: 3em; }
 .mrH2 { font-size: 2.5em; }
 .mrH3 { font-size: 2em; }
+.mrH4 { font-size: 1.5em; }
+.mrH5 { font-size: 1em; }
+.mrH6 { font-size: 0.5em; }
 .mrBloody { text-shadow: 1px 1px 3px snow; }
 .mrDark { text-shadow: 3px 3px 5px darkslategrey; }
 .mrDystopian { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95; }
