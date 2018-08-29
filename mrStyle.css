@@ -86,7 +86,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* Boxes */
 
-.mrBox { width: 100vw; height: 100vh; overflow-y: auto; } 
+.mrBox { width: calc(100vw - 17px); height : calc(100vh - 17px); overflow-y: auto; } 
 .mrBox90 { width: 90vw; height: 90vh; overflow-y: auto; position: relative; left: 5vw; top: 5vh; }
 .mrBox75 { width: 75vw; height: 75vh; overflow-y: auto; position: relative; left: 12.5vw; top: 12.5vh; }
 .mrBox50 { width: 50vw; height: 50vh; overflow-y: auto; position: relative; left: 25vw; top: 25vh; }
@@ -102,7 +102,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .mr20 { width: 4.99999%; float:left; padding:0; margin:0; transition: .5s; }
 .mrR { overflow:hidden }
 .mrMinH50 { min-height: 50vh; overflow-y: auto; }
-@media screen and (max-width: 960px) { .mr1 { width: 99.99999%; } .mr2 { width: 99.99999%; } .mr3 { width: 66.66666%; } .mr4 { width: 49.99999%; } .mr5 { width: 39.99999%; } .mr6 { width: 33.33333%; } .mr10 { width: 19.99999%; } .mr20 { width: 9.99999%; } .mrCon60,.mrCon65,.mrCon70,.mrCon75,.mrCon80,.mrCon85,.mrCon90 { width: 100%; position: static; left: 0; } }
+@media screen and (max-width: 960px) { .mr1 { width: 99.99999%; } .mr2 { width: 99.99999%; } .mr3 { width: 66.66666%; } .mr4 { width: 49.99999%; } .mr5 { width: 39.99999%; } .mr6 { width: 33.33333%; } .mr10 { width: 19.99999%; } .mr20 { width: 9.99999%; } .mrCon60,.mrCon65,.mrCon70,.mrCon75,.mrCon80,.mrCon85,.mrCon90 { width: calc(100vw - 17px); position: static; left: 0; } }
 @media screen and (max-width: 485px) { .mr1 { width: 99.99999%; } .mr2 { width: 99.99999%; } .mr3 { width: 99.99999%; } .mr4 { width: 99.99999%; } .mr5 { width: 99.99999%; } .mr6 { width: 99.99999%; } .mr10 { width: 99.99999%; } .mr20 { width: 99.99999%; } }
 .mrCreamy { box-shadow: 2px 2px 1px grey, 4px 4px 2px snow, 6px 6px 3px lavender, -3px -3px 5px lavenderblush, -3px 3px 2px navajowhite, 3px -3px 2px mintcream, inset 3px 3px 0 grey, inset -3px -3px 0 grey; }
 .mrEnamel { border-radius: 25px; box-shadow: 1px 1px 2px black, -1px -1px 2px black, 5px 5px 3px grey, inset -3px -3px 3px grey, inset 3px -3px 3px grey; }
