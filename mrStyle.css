@@ -1,46 +1,10 @@
-﻿/*	                                         SSSSSSSSSSSSSSS      tttt                              lllllll                                                                                                                                  
-                                           SS:::::::::::::::S  ttt:::t                              l:::::l                     
-                                          S:::::SSSSSS::::::S  t:::::t                              l:::::l                     
-                                          S:::::S     SSSSSSS  t:::::t                              l:::::l                     
-   mmmmmmm    mmmmmmm   rrrrr   rrrrrrrrr S:::::S        ttttttt:::::tttttttyyyyyyy           yyyyyyyl::::l     eeeeeeeeeeee    
- mm:::::::m  m:::::::mm r::::rrr:::::::::rS:::::S        t:::::::::::::::::t y:::::y         y:::::y l::::l   ee::::::::::::ee  
-m::::::::::mm::::::::::mr:::::::::::::::::rS::::SSSS     t:::::::::::::::::t  y:::::y       y:::::y  l::::l  e::::::eeeee:::::ee
-m::::::::::::::::::::::mrr::::::rrrrr::::::rSS::::::SSSSStttttt:::::::tttttt   y:::::y     y:::::y   l::::l e::::::e     e:::::e
-m:::::mmm::::::mmm:::::m r:::::r     r:::::r  SSS::::::::SS    t:::::t          y:::::y   y:::::y    l::::l e:::::::eeeee::::::e
-m::::m   m::::m   m::::m r:::::r     rrrrrrr     SSSSSS::::S   t:::::t           y:::::y y:::::y     l::::l e:::::::::::::::::e 
-m::::m   m::::m   m::::m r:::::r                      S:::::S  t:::::t            y:::::y:::::y      l::::l e::::::eeeeeeeeeee  
-m::::m   m::::m   m::::m r:::::r                      S:::::S  t:::::t    tttttt   y:::::::::y       l::::l e:::::::e           
-m::::m   m::::m   m::::m r:::::r          SSSSSSS     S:::::S  t::::::tttt:::::t    y:::::::y       l::::::le::::::::e          
-m::::m   m::::m   m::::m r:::::r          S::::::SSSSSS:::::S  tt::::::::::::::t     y:::::y        l::::::l e::::::::eeeeeeee  
-m::::m   m::::m   m::::m r:::::r          S:::::::::::::::SS     tt:::::::::::tt    y:::::y         l::::::l  ee:::::::::::::e  
-mmmmmm   mmmmmm   mmmmmm rrrrrrr           SSSSSSSSSSSSSSS         ttttttttttt     y:::::y          llllllll    eeeeeeeeeeeeee  
-                                                                                  y:::::y                                       
-                                                                                 y:::::y                                        
-                                                                                y:::::y                                         
-                                                                               y:::::y                                          
-                                                                              yyyyyyy                                           
-Current Styles:
-- mrBloody
-- mrBlueSky
-- mrDark
-- mrDot
-- mrDystopian
-- mrEnamel
-- mrFlow
-- mrLavender
-- mrLine
-- mrPeachy
-- mrRetro
-- mrRoddy
-- mrShadow
-- mrShady
-- mrShrink
-- mrSpacey
-*/                                                                                                                             
-
-/* Reset Code (meyerweb) */
+﻿/* Reset Code (meyerweb) */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; } 
+
+/* Remove Margins and Padding */
+
+body { margin: 0; padding: 0; }
 
 /* Root */
 
